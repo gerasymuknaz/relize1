@@ -137,9 +137,11 @@ nav {
     height: 200px;
     left: 5px;
     text-align: center;
+    dilsplay:flex;
 
 }
 .promo h3{
     text-align: center;
-
+    display: block ;
+    width: 1000px;
 }
