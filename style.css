@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f5e1;
+    color: #3e563e;
+}
+
+header {
+    background-color: #a3b18a;
+    padding: 15px;
+    text-align: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+}
+
+nav {
+    margin-top: 10px;
+    
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    background: #588157;
+    border-radius: 5px;
+
+}
+
+.nav-link:hover {
+    background: #3a5a40;
+    box-shadow: 5px 5px 10px 5px #588157;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.info-div {
+    max-width: 50%;
+}
+
+.info-img {
+    width: 300px;
+}
+
+.call-butt, .menu-butt {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #b7b7a4;
+    color: white;
+    border-radius: 5px;
+}
+
+.call-butt:hover, .menu-butt:hover {
+    background: #a3b18a;
+}
+
+.menu {
+    text-align: center;
+    padding: 50px;
+}
+
+.menu-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 1px solid #588157;
+}
+
+.menu-img {
+    width: 150px;
+
+}
+.menu-img:hover{
+    transform: scale(2);
+    transition: 0.7s ease-in;
+    
+}
+
+.sallary {
+    font-weight: bold;
+    color: #3e563e;
+}
+
+.order {
+    text-decoration: none;
+    padding: 10px 15px;
+    background: #a3b18a;
+    color: white;
+    border-radius: 5px;
+}
+
+.order:hover {
+    background: #3a5a40;
+}
+
+.sale {
+    text-align: center;
+    padding: 50px;
+}
+
+.sale-img {
+    width: 200px;
+    margin: 10px;
+}
+
+.footer-info {
+    text-align: center;
+    background: #588157;
+    color: white;
+    padding: 20px;
+}
+
+.footer-img {
+    width: 30px;
+    margin: 5px;
+}
+.sale-img{
+    width: 300px;
+    height: 75px;
+    padding: 5px;
+}
+.promo{
+    position: relative;
+    top: 5px;
+    width: 100%;
+    height: 200px;
+    left: 5px;
+    text-align: center;
+
+}
+.promo h3{
+    text-align: center;
+
+}
